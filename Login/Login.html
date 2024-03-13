@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Page</title>
+    <link rel="stylesheet" href="Login.css" />
+  </head>
+  <body>
+    <h2 class="login-heading">Login Page</h2>
+    <br />
+    <div class="login">
+      <form class="login-form" method="get" action="login.php">
+        <label for="Uname" class="login-label"><b>User Name </b></label>
+        <input
+          type="text"
+          name="Uname"
+          id="Uname"
+          class="login-input"
+          placeholder="Username"
+        />
+        <br /><br />
+        <label for="Pass" class="login-label"><b>Password </b></label>
+        <input
+          type="password"
+          name="Pass"
+          id="Pass"
+          class="login-input"
+          placeholder="Password"
+        />
+        <br /><br />
+        <input
+          type="button"
+          name="log"
+          id="log"
+          class="login-button"
+          value="Log In Here"
+        />
+        <br /><br />
+        <input type="checkbox" id="check" class="login-checkbox" />
+        <span class="login-remember">Remember me</span>
+        <br /><br />
+        <nav class="login-nav">
+          <ul>
+            <li><a href="/Home/home.html">Home</a></li>
+            <li><a href="/Profile/profile.html">Sign up</a></li>
+          </ul>
+        </nav>
+      </form>
+    </div>
+  </body>
+</html>

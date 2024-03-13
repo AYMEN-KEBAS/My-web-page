@@ -1,0 +1,75 @@
+body {
+        margin: 0;
+        padding: 0;
+        background-color: gainsboro;
+        font-family: "Arial", sans-serif;
+      }
+      .headeruniv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #6abadeba;
+        padding: 10px;
+      }
+      .leftimg,
+      .rightimg {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .leftimg img,
+      .rightimg img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+      }
+      .txtlogo {
+        text-align: center;
+        color: #23463f;
+      }
+      .navigation {
+        background-color: #23463f;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+      .navigation a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 50px;
+      }
+      .navigation a:hover {
+        background-color:  #08ffd1;
+      }
+      .page {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        gap: 20px;
+        padding: 20px;
+      }
+      .leftbar,
+      .rightbar {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #23463f(0, 0, 0, 0.1);
+      }
+      .artic {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px #23463f(0, 0, 0, 0.1);
+      }
+      .footer {
+        background-color: #23463f;
+        color: white;
+        text-align: center;
+        padding: 10px;
+      }

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Page</title>
+    <link rel="stylesheet" type="text/css" href="profile.css" />
+  </head>
+  <body>
+    <h2 class="sign-heading">Sign up Page</h2>
+    <br />
+    <form class="profile-form">
+      <legend class="form-legend">Personal Information</legend>
+      <br />
+      <label for="fname" class="form-label">First Name</label>
+      <input type="text" id="fname" name="fname" class="form-input" /><br />
+      <br />
+
+      <label for="lname" class="form-label">Last Name</label>
+      <input type="text" id="lname" name="lname" class="form-input" /><br />
+      <br />
+
+      <label for="email" class="form-label">Email :</label>
+      <input type="email" id="email" name="email" class="form-input" /><br />
+
+      <label for="number" class="form-label">Phone :</label>
+      <input type="number" id="number" name="number" class="form-input" /><br />
+
+      <label for="birthday" class="form-label">Birth Day</label>
+      <input
+        type="date"
+        id="birthday"
+        name="birthday"
+        class="form-input"
+      /><br />
+      <br />
+
+      <label for="gender" class="form-label">Gender :</label>
+      <input
+        type="radio"
+        id="male"
+        name="gender"
+        value="male"
+        class="form-radio-input"
+      />
+      <label for="male" class="form-radio-label">Male</label>
+
+      <input
+        type="radio"
+        name="gender"
+        id="female"
+        value="female"
+        class="form-radio-input"
+      />
+      <label for="female" class="form-radio-label">Female</label>
+      <br />
+
+      <label for="country" class="form-label">Country:</label>
+      <select id="country" name="country" class="form-select">
+        <option value="Algeira">Algeira</option>
+        <option value="Tunisie">Tunisie</option>
+        <option value="Mali">Mali</option>
+      </select>
+      <br />
+
+      <label for="text" class="form-label">Address :</label><br />
+      <textarea id="text" name="text" class="form-textarea"></textarea><br />
+
+      <label for="picture" class="form-label">Profile Picture :</label>
+      <input
+        type="file"
+        id="picture"
+        name="picture"
+        accept="image/*"
+        class="form-file-input"
+      />
+      <br />
+
+      <label for="bio" class="form-label">Bio:</label><br />
+      <textarea id="bio" name="bio" class="form-textarea"></textarea><br />
+
+      <label for="subscription" class="form-label">Subscribe : </label>
+      <input
+        type="checkbox"
+        id="subscription"
+        name="subscription"
+        class="form-checkbox-input"
+      />
+      <br />
+      <input type="submit" value="Submit" class="form-submit-button" />
+      <nav class="nav">
+        <ul>
+          <li><a href="/Home/home.html" class="nav-link">Home</a></li>
+          <li><a href="/Login/Login.html" class="nav-link">Login</a></li>
+        </ul>
+      </nav>
+    </form>
+
+    <a href="#" onclick="history.back();" class="back-link"></a>
+  </body>
+</html>
